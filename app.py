@@ -25,4 +25,4 @@ def hello_world11():
     json_data = json.load(json_file)
   return jsonify({'테스트':'테스트','테스트':'테스트','테스트':'테스트','테스트':'테스트'})
 
-app.run(host='0.0.0.0', port=8080)
+app.run(debug=True)
